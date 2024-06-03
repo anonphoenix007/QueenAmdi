@@ -40,13 +40,6 @@
             "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
         }
     ],
-    "addons": [
-        {
-            "plan": "heroku-postgresql",
-            "options": {
-                "version": "13"
-            }
-        }
-    ],
+    "addons": [{ "plan": "heroku-postgresql:essential-0" }],
     "stack": "heroku-22"
 }
